@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alzee/bigs#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "chart.js": "^3.7.0"
   }
 }
