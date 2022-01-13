@@ -1,4 +1,4 @@
-body{
+body#home{
     background-image: url(/img/bg.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
