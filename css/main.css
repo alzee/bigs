@@ -1,17 +1,25 @@
-/* Error: expected ":".
- *    ,
- * 17 |   header{
- *    |         ^
- *    '
- *   scss/main.css 17:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ":".\a    \2577 \a 17 \2502    header{\a    \2502          ^\a    \2575 \a   scss/main.css 17:9  root stylesheet';
+body#home {
+  background-image: url(/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  color: white;
 }
+
+section {
+  margin-top: 168px;
+}
+section header em {
+  color: red;
+}
+section > div {
+  width: 310px;
+}
+section#left {
+  margin-left: 66px;
+}
+
+.progress {
+  background-color: unset;
+}
+
+/*# sourceMappingURL=main.css.map */

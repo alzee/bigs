@@ -1,24 +1,28 @@
-body#home{
+body{
+  &#home {
     background-image: url(/img/bg.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     color: white;
+  }
 }
 section{
   margin-top: 168px;
-}
-section>div{
-  width: 310px;
-}
-section#left{
-  margin-left: 66px;
-}
-section{
   header{
     em{
       color: red;
     }
   }
+  &>div{
+    width: 310px;
+  }
+  &#left{
+    margin-left: 66px;
+  }
+}
+section>div{
+}
+section#left{
 }
 .progress{
   background-color: unset;
