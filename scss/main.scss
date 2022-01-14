@@ -1,4 +1,5 @@
 body{
+  font-size: 20px;
   &#home {
     background-image: url(/img/bg.jpg);
     background-repeat: no-repeat;
@@ -8,23 +9,42 @@ body{
 }
 section{
   margin-top: 168px;
-  header{
-    margin-bottom: 80px;
+  &#left{
+    margin-left: 66px;
   }
-  &>div{
+  header{
+    margin-bottom: 76px;
+    span{
+      font-size: 2.5rem;
+    }
+  }
+  >div{
     width: 310px;
-    .progress{
-      margin: 21px 10px;
-      height: 1.5rem;
-      span{
-        font-size: 20px;
-        margin-right: 16px;
-        //width: 40px;
+    text-align: center;
+    h3{
+      margin-bottom: 15px;
+    }
+  }
+  #gmv{
+    margin-bottom: 16px;
+    >div{
+      p{
+        font-size: 36px;
+        margin: 0;
       }
     }
   }
-  &#left{
-    margin-left: 66px;
+  #ranking{
+    >div{
+      margin: 15px 0;
+      span{
+        width: 86px;
+        align-self: center;
+      }
+      .progress{
+        height: 1.5rem;
+      }
+    }
   }
 }
 .progress{
