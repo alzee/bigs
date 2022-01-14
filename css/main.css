@@ -50,10 +50,24 @@ main section #ranking > div .progress {
   height: 1.5rem;
 }
 main section#middle {
-  margin: 150px 0 0 60px;
+  margin: 130px 0 0 40px;
+}
+main section#middle h3 {
+  margin-bottom: 4px;
+}
+main section#middle #map {
+  margin-bottom: 4px;
 }
 main section#middle #map img {
-  width: 400px;
+  width: 350px;
+}
+main section#middle #circle > div {
+  position: relative;
+}
+main section#middle #circle p {
+  position: absolute;
+  top: 104px;
+  left: 40px;
 }
 main section#middle #circle .circle-progress-value {
   stroke-width: 6px;
