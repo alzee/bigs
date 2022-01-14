@@ -72,9 +72,49 @@ main{
         margin-bottom: 4px;
       }
       #map{
+        position: relative;
         margin-bottom: 4px;
         img{
           width: 350px;
+        }
+        >div{
+          position: absolute;
+        }
+        #spinner{
+          top: 40px;
+          left: 20px;
+        }
+        #spinner2{
+          top: 80px;
+          left: 90px;
+        }
+        #spinner3{
+          top: 90px;
+          left: 190px;
+        }
+        #spinner4{
+          top: 110px;
+          left: 230px;
+        }
+        #spinner5{
+          top: 260px;
+          left: 200px;
+        }
+        #spinner6{
+          top: 190px;
+          left: 120px;
+        }
+        #spinner7{
+          top: 290px;
+          left: 90px;
+        }
+        #spinner8{
+          top: 260px;
+          left: 30px;
+        }
+        #spinner9{
+          top: 180px;
+          left: 290px;
         }
       }
       #circle{

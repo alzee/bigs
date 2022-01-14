@@ -70,10 +70,50 @@ main section#middle h3 {
   margin-bottom: 4px;
 }
 main section#middle #map {
+  position: relative;
   margin-bottom: 4px;
 }
 main section#middle #map img {
   width: 350px;
+}
+main section#middle #map > div {
+  position: absolute;
+}
+main section#middle #map #spinner {
+  top: 40px;
+  left: 20px;
+}
+main section#middle #map #spinner2 {
+  top: 80px;
+  left: 90px;
+}
+main section#middle #map #spinner3 {
+  top: 90px;
+  left: 190px;
+}
+main section#middle #map #spinner4 {
+  top: 110px;
+  left: 230px;
+}
+main section#middle #map #spinner5 {
+  top: 260px;
+  left: 200px;
+}
+main section#middle #map #spinner6 {
+  top: 190px;
+  left: 120px;
+}
+main section#middle #map #spinner7 {
+  top: 290px;
+  left: 90px;
+}
+main section#middle #map #spinner8 {
+  top: 260px;
+  left: 30px;
+}
+main section#middle #map #spinner9 {
+  top: 180px;
+  left: 290px;
 }
 main section#middle #circle > div {
   position: relative;
