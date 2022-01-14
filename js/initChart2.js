@@ -4,21 +4,21 @@ const data2 = {
   datasets: [
     {
       label: '茅箭区',
-      data: [62,23,4,45,27,18,39],
+      data: [6200,2300,400,4500,2700,1800,3900],
       borderColor: '#05309c',
       backgroundColor: '#05309c',
       fill: true
     },
     {
       label: '张湾区',
-      data: [48,83,22,52,71,11,91],
+      data: [4800,8300,2200,5200,7100,1100,9100],
       borderColor: '#36a2eb',
       backgroundColor: '#36a2eb',
       fill: true
     },
     {
       label: '白浪开发区',
-      data: [92,23,74,35,27,58,29],
+      data: [9200,2300,7400,3500,2700,5800,2900],
       borderColor: '#4bc0c0',
       backgroundColor: '#4bc0c0',
       fill: true

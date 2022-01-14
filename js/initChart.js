@@ -21,7 +21,7 @@ const data = {
   datasets: [
     {
       label: '金额',
-      data: [48,83,72,62,71,98,81],
+      data: [4800,8300,7200,6200,7100,9800,8100],
       borderColor: '#36a2eb',
       backgroundColor: '#36a2eb',
     }
