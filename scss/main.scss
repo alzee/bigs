@@ -75,6 +75,7 @@ main{
       }
       .right{
         width: 580px;
+        text-align: left;
       }
       h3{
         margin-bottom: 4px;
@@ -154,10 +155,15 @@ main{
       >div{
         width: 360px;
         margin-left: 58px;
+        text-align: left;
       }
     }
   }
   .progress{
     background-color: unset;
+  }
+  .chartLegend{
+    font-size: 1.75rem;
+
   }
 }

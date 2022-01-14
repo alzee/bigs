@@ -38,7 +38,7 @@ const config = {
         position: 'top',
       },
       title: {
-        display: true,
+        display: false,
         text: '年交易量'
       }
     }

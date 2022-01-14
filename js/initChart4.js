@@ -32,7 +32,7 @@ const config4 = {
           }
       },
       title: {
-        display: true,
+        display: false,
         text: '周交易毛利统计'
       }
     }

@@ -24,7 +24,7 @@ const config3 = {
     responsive: true,
     plugins: {
       title: {
-        display: true,
+        display: false,
         text: '区域订单量'
       }
     }

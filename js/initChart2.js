@@ -40,7 +40,7 @@ const config2 = {
     responsive: true,
     plugins: {
       title: {
-        display: true,
+        display: false,
         text: (ctx) => '区域交易分析'
       },
       tooltip: {

@@ -11189,6 +11189,7 @@ main section#middle .left {
 }
 main section#middle .right {
   width: 580px;
+  text-align: left;
 }
 main section#middle h3, main section#middle .h3 {
   margin-bottom: 4px;
@@ -11264,9 +11265,13 @@ main section#right header {
 main section#right > div {
   width: 360px;
   margin-left: 58px;
+  text-align: left;
 }
 main .progress {
   background-color: unset;
+}
+main .chartLegend {
+  font-size: 1.75rem;
 }
 
 /*# sourceMappingURL=main.css.map */
