@@ -13,6 +13,12 @@ main{
     &#left{
       margin-left: 66px;
     }
+    &#right{
+      margin-right: 66px;
+    }
+    &#left>div, &#right>div{
+      width: 310px;
+    }
     header{
       margin-bottom: 76px;
       span{
@@ -20,7 +26,6 @@ main{
       }
     }
     >div{
-      width: 310px;
       text-align: center;
       h3{
         margin-bottom: 15px;
@@ -44,6 +49,14 @@ main{
         }
         .progress{
           height: 1.5rem;
+        }
+      }
+    }
+    &#middle{
+      margin: 150px 0 0 60px;
+      #map{
+        img{
+          width: 400px;
         }
       }
     }

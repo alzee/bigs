@@ -14,6 +14,12 @@ main {
 main section#left {
   margin-left: 66px;
 }
+main section#right {
+  margin-right: 66px;
+}
+main section#left > div, main section#right > div {
+  width: 310px;
+}
 main section header {
   margin-bottom: 76px;
 }
@@ -21,7 +27,6 @@ main section header span {
   font-size: 2.5rem;
 }
 main section > div {
-  width: 310px;
   text-align: center;
 }
 main section > div h3 {
@@ -43,6 +48,12 @@ main section #ranking > div span {
 }
 main section #ranking > div .progress {
   height: 1.5rem;
+}
+main section#middle {
+  margin: 150px 0 0 60px;
+}
+main section#middle #map img {
+  width: 400px;
 }
 main .progress {
   background-color: unset;
