@@ -4,7 +4,7 @@ body {
   font-size: 20px;
 }
 body#home {
-  background-image: url(/img/bg.jpg);
+  background-image: url(/img/bg1.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   color: white;
