@@ -6,11 +6,14 @@ body{
   width: 1920px;
   margin: auto;
   font-size: 20px;
-  &#home {
-    background-image: url(/img/bg1.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    color: white;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  color: white;
+  &#home{
+    background-image: url(/img/bg.jpg);
+  }
+  &#detail{
+    background-image: url(/img/bg2.jpg);
   }
 }
 main{
@@ -28,6 +31,7 @@ main{
     header{
       margin-bottom: 76px;
       span{
+        color: #ae8526;
         font-size: 2.5rem;
       }
     }

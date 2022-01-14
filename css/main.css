@@ -11122,12 +11122,15 @@ body {
   width: 1920px;
   margin: auto;
   font-size: 20px;
-}
-body#home {
-  background-image: url(/img/bg1.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   color: white;
+}
+body#home {
+  background-image: url(/img/bg.jpg);
+}
+body#detail {
+  background-image: url(/img/bg2.jpg);
 }
 
 main {
@@ -11146,6 +11149,7 @@ main section header {
   margin-bottom: 76px;
 }
 main section header span {
+  color: #ae8526;
   font-size: 2.5rem;
 }
 main section > div {
