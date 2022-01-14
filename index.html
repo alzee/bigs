@@ -106,7 +106,7 @@
 
     <section id="middle" class="col">
       <div class="row">
-        <div class="col text-start">
+        <div class="col-auto text-start left">
           <div id="map">
             <h3>网点分布</h3>
             <img src="img/map.png">
@@ -124,11 +124,9 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div id="chart1">
-          </div>
-          <div id="chart2">
-          </div>
+        <div class="col-auto right">
+          <canvas id="chart"></canvas>
+          <canvas id="chart2"></canvas>
         </div>
       </div>
     </section>
@@ -139,6 +137,11 @@
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/circle-progress.js"></script>
+  <script src="js/chart.min.js"></script>
+  <script src="js/initChart.js"></script>
+  <script src="js/initChart2.js"></script>
+  <script src="js/initChart3.js"></script>
+  <script src="js/initChart4.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

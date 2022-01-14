@@ -54,6 +54,15 @@ main{
     }
     &#middle{
       margin: 130px 0 0 40px;
+      >div{
+        width: 960px;
+      }
+      .left{
+        width: 380px;
+      }
+      .right{
+        width: 580px;
+      }
       h3{
         margin-bottom: 4px;
       }
