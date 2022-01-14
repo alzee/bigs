@@ -59,6 +59,19 @@ main{
           width: 400px;
         }
       }
+      #circle{
+        .circle-progress-value {
+          stroke-width: 6px;
+          stroke: hsl(193deg 98% 50%);
+        }
+        .circle-progress-circle {
+          stroke-width: 6px;
+          stroke: hsl(213deg 41% 46%);
+        }
+        .circle-progress-text {
+          fill: hsl(193deg 98% 50%);
+        }
+      }
     }
   }
   .progress{

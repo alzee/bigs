@@ -55,6 +55,17 @@ main section#middle {
 main section#middle #map img {
   width: 400px;
 }
+main section#middle #circle .circle-progress-value {
+  stroke-width: 6px;
+  stroke: #03c6fc;
+}
+main section#middle #circle .circle-progress-circle {
+  stroke-width: 6px;
+  stroke: #4570a5;
+}
+main section#middle #circle .circle-progress-text {
+  fill: #03c6fc;
+}
 main .progress {
   background-color: unset;
 }
