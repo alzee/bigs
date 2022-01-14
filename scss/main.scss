@@ -1,4 +1,6 @@
 body{
+  width: 1920px;
+  margin: auto;
   font-size: 20px;
   &#home {
     background-image: url(/img/bg.jpg);
@@ -95,6 +97,9 @@ main{
       }
     }
     &#right{
+      header{
+        margin-left: 128px;
+      }
       >div{
         width: 360px;
         margin-left: 58px;

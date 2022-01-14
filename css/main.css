@@ -1,4 +1,6 @@
 body {
+  width: 1920px;
+  margin: auto;
   font-size: 20px;
 }
 body#home {
@@ -88,6 +90,9 @@ main section#middle #circle .circle-progress-circle {
 }
 main section#middle #circle .circle-progress-text {
   fill: #03c6fc;
+}
+main section#right header {
+  margin-left: 128px;
 }
 main section#right > div {
   width: 360px;
