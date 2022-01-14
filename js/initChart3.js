@@ -3,13 +3,13 @@ const data3 = {
   labels: labels3,
   datasets: [
     {
-      label: 'Dataset 1',
+      label: '茅箭区',
       data: [92,23,94,85,57,68,89],
       borderColor: '#36a2eb',
       backgroundColor: '#36a2eb',
     },
     {
-      label: 'Dataset 2',
+      label: '张湾区',
       data: [98,73,82,92,61,91,81],
       borderColor: '#4bc0c0',
       backgroundColor: '#4bc0c0',
@@ -25,7 +25,7 @@ const config3 = {
     plugins: {
       title: {
         display: true,
-        text: 'Chart.js Radar Chart'
+        text: '区域订单量'
       }
     }
   },

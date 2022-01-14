@@ -3,21 +3,21 @@ const data2 = {
   labels: labels2,
   datasets: [
     {
-      label: 'My First dataset',
+      label: '茅箭区',
       data: [62,23,4,45,27,18,39],
       borderColor: '#05309c',
       backgroundColor: '#05309c',
       fill: true
     },
     {
-      label: 'My Second dataset',
+      label: '张湾区',
       data: [48,83,22,52,71,11,91],
       borderColor: '#36a2eb',
       backgroundColor: '#36a2eb',
       fill: true
     },
     {
-      label: 'My Third dataset',
+      label: '白浪开发区',
       data: [92,23,74,35,27,58,29],
       borderColor: '#4bc0c0',
       backgroundColor: '#4bc0c0',
@@ -41,7 +41,7 @@ const config2 = {
     plugins: {
       title: {
         display: true,
-        text: (ctx) => 'Chart.js Line Chart - stacked=' + ctx.chart.options.scales.y.stacked
+        text: (ctx) => '区域交易分析'
       },
       tooltip: {
         mode: 'index'
@@ -56,14 +56,14 @@ const config2 = {
       x: {
         title: {
           display: true,
-          text: 'Month'
+          text: ''
         }
       },
       y: {
         stacked: true,
         title: {
           display: true,
-          text: 'Value'
+          text: ''
         }
       }
     }

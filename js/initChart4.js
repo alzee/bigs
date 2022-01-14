@@ -3,7 +3,7 @@ const data4 = {
   labels: labels4,
   datasets: [
     {
-      label: 'Dataset 1',
+      label: '钢材',
       data: [48,83,22,52,71,11,91],
       borderColor: '#4bc0c0',
       backgroundColor: '#4bc0c0',
@@ -11,7 +11,7 @@ const data4 = {
       order: 1
     },
     {
-      label: 'Dataset 2',
+      label: '废钢',
       data: [62,23,4,45,27,18,39],
       borderColor: '#36a2eb',
       backgroundColor: '#36a2eb',
@@ -27,10 +27,13 @@ const config4 = {
     plugins: {
       legend: {
         position: 'top',
+          labels: {
+              color: '#FFFFFF'
+          }
       },
       title: {
         display: true,
-        text: 'Chart.js Combined Line/Bar Chart'
+        text: '年度利润分析'
       }
     }
   },
@@ -38,3 +41,4 @@ const config4 = {
 
 const chart4 = new Chart(document.getElementById('chart4'), config4);
 chart4.height = 300;
+// chart4.defaults.color = '#FFFFFF';
