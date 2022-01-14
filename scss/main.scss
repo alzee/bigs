@@ -7,46 +7,48 @@ body{
     color: white;
   }
 }
-section{
-  margin-top: 168px;
-  &#left{
-    margin-left: 66px;
-  }
-  header{
-    margin-bottom: 76px;
-    span{
-      font-size: 2.5rem;
+main{
+  padding-top: 168px;
+  section{
+    &#left{
+      margin-left: 66px;
     }
-  }
-  >div{
-    width: 310px;
-    text-align: center;
-    h3{
-      margin-bottom: 15px;
-    }
-  }
-  #gmv{
-    margin-bottom: 16px;
-    >div{
-      p{
-        font-size: 36px;
-        margin: 0;
-      }
-    }
-  }
-  #ranking{
-    >div{
-      margin: 15px 0;
+    header{
+      margin-bottom: 76px;
       span{
-        width: 86px;
-        align-self: center;
+        font-size: 2.5rem;
       }
-      .progress{
-        height: 1.5rem;
+    }
+    >div{
+      width: 310px;
+      text-align: center;
+      h3{
+        margin-bottom: 15px;
+      }
+    }
+    #gmv{
+      margin-bottom: 16px;
+      >div{
+        p{
+          font-size: 36px;
+          margin: 0;
+        }
+      }
+    }
+    #ranking{
+      >div{
+        margin: 15px 0;
+        span{
+          width: 86px;
+          align-self: center;
+        }
+        .progress{
+          height: 1.5rem;
+        }
       }
     }
   }
-}
-.progress{
-  background-color: unset;
+  .progress{
+    background-color: unset;
+  }
 }
