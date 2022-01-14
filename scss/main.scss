@@ -14,7 +14,7 @@ main{
       margin-left: 66px;
     }
     &#right{
-      margin-right: 66px;
+      margin-right: 0px;
     }
     &#left>div, &#right>div{
       width: 310px;
@@ -92,6 +92,11 @@ main{
         .circle-progress-text {
           fill: hsl(193deg 98% 50%);
         }
+      }
+    }
+    &#right{
+      >div{
+        width: 450px;
       }
     }
   }

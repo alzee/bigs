@@ -1,6 +1,3 @@
-const DATA_COUNT2 = 7;
-const NUMBER_CFG2 = {count: DATA_COUNT2, min: -100, max: 100};
-
 const labels2 = ['一月','二月','三月', '四月', '五月', '六月', '七月'];
 const data2 = {
   labels: labels2,

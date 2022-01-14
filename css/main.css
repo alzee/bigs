@@ -15,7 +15,7 @@ main section#left {
   margin-left: 66px;
 }
 main section#right {
-  margin-right: 66px;
+  margin-right: 0px;
 }
 main section#left > div, main section#right > div {
   width: 310px;
@@ -88,6 +88,9 @@ main section#middle #circle .circle-progress-circle {
 }
 main section#middle #circle .circle-progress-text {
   fill: #03c6fc;
+}
+main section#right > div {
+  width: 450px;
 }
 main .progress {
   background-color: unset;
