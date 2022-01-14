@@ -90,7 +90,8 @@ main section#middle #circle .circle-progress-text {
   fill: #03c6fc;
 }
 main section#right > div {
-  width: 450px;
+  width: 360px;
+  margin-left: 58px;
 }
 main .progress {
   background-color: unset;
