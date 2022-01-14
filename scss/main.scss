@@ -9,20 +9,23 @@ body{
 section{
   margin-top: 168px;
   header{
-    em{
-      color: red;
-    }
+    margin-bottom: 80px;
   }
   &>div{
     width: 310px;
+    .progress{
+      margin: 21px 10px;
+      height: 1.5rem;
+      span{
+        font-size: 20px;
+        margin-right: 16px;
+        //width: 40px;
+      }
+    }
   }
   &#left{
     margin-left: 66px;
   }
-}
-section>div{
-}
-section#left{
 }
 .progress{
   background-color: unset;
