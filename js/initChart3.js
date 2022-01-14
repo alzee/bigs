@@ -5,8 +5,8 @@ const data3 = {
     {
       label: 'Dataset 1',
       data: [92,23,94,85,57,68,89],
-      borderColor: '#ff6384',
-      backgroundColor: '#ff6384',
+      borderColor: '#36a2eb',
+      backgroundColor: '#36a2eb',
     },
     {
       label: 'Dataset 2',

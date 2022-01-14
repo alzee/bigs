@@ -7,14 +7,14 @@ const data4 = {
       data: [48,83,22,52,71,11,91],
       borderColor: '#4bc0c0',
       backgroundColor: '#4bc0c0',
+      type: 'line',
       order: 1
     },
     {
       label: 'Dataset 2',
       data: [62,23,4,45,27,18,39],
-      borderColor: '#ff6384',
-      backgroundColor: '#ff6384',
-      type: 'line',
+      borderColor: '#36a2eb',
+      backgroundColor: '#36a2eb',
       order: 0
     }
   ]

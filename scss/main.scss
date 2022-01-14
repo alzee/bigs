@@ -51,6 +51,9 @@ main{
         }
         .progress{
           height: 1.5rem;
+          .progress-bar{
+            background-color: #1D56AD;
+          }
         }
       }
     }
@@ -85,11 +88,11 @@ main{
         }
         .circle-progress-value {
           stroke-width: 6px;
-          stroke: hsl(193deg 98% 50%);
+          stroke: hsl(204deg 82% 57%);
         }
         .circle-progress-circle {
           stroke-width: 6px;
-          stroke: hsl(213deg 41% 46%);
+          stroke: hsl(204deg 72% 84%);
         }
         .circle-progress-text {
           fill: hsl(193deg 98% 50%);

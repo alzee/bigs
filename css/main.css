@@ -51,6 +51,9 @@ main section #ranking > div span {
 main section #ranking > div .progress {
   height: 1.5rem;
 }
+main section #ranking > div .progress .progress-bar {
+  background-color: #1D56AD;
+}
 main section#middle {
   margin: 130px 0 0 40px;
 }
@@ -82,11 +85,11 @@ main section#middle #circle p {
 }
 main section#middle #circle .circle-progress-value {
   stroke-width: 6px;
-  stroke: #03c6fc;
+  stroke: #37a3eb;
 }
 main section#middle #circle .circle-progress-circle {
   stroke-width: 6px;
-  stroke: #4570a5;
+  stroke: #b9dcf4;
 }
 main section#middle #circle .circle-progress-text {
   fill: #03c6fc;

@@ -5,8 +5,8 @@ const data2 = {
     {
       label: 'My First dataset',
       data: [62,23,4,45,27,18,39],
-      borderColor: '#ff6384',
-      backgroundColor: '#ff6384',
+      borderColor: '#05309c',
+      backgroundColor: '#05309c',
       fill: true
     },
     {
@@ -23,13 +23,13 @@ const data2 = {
       backgroundColor: '#4bc0c0',
       fill: true
     },
-    {
-      label: 'My Fourth dataset',
-      data: [62,33,24,75,57,38,90],
-      borderColor: '#ffcd56',
-      backgroundColor: '#ffcd56',
-      fill: true
-    }
+    //{
+    //  label: 'My Fourth dataset',
+    //  data: [62,33,24,75,57,38,90],
+    //  borderColor: '#859adc',
+    //  backgroundColor: '#859adc',
+    //  fill: true
+    //}
   ]
 };
 
