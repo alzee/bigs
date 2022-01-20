@@ -76,6 +76,9 @@ body{
       .right{
         width: 580px;
         text-align: left;
+        >div{
+          height: 248px;
+        }
       }
       h3{
         margin-bottom: 4px;
@@ -160,6 +163,9 @@ body{
         width: 360px;
         margin-left: 58px;
         text-align: left;
+        >div{
+          height: 334px;
+        }
       }
     }
   }
