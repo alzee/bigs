@@ -172,20 +172,19 @@ body{
   }
 }
 #detail{
+  text-align: center;
+  h3{
+    text-align: left;
+  }
   header{
     font-size: 32px;
     margin: auto;
     width: 500px;
-    text-align: center;
     margin-top: 10px;
   }
   main{
     height: 498px;
     margin: 60px 0 0 32px;
-    text-align: center;
-    h3{
-      text-align: left;
-    }
     #left{
       h3{
         margin-left: 116px;
@@ -211,6 +210,13 @@ body{
       h3{
         margin-left: 100px;
       }
+      .table-dark{
+        --bs-table-bg: #132958;
+        --bs-table-striped-bg: #101d4b;
+      }
+      th{
+        background-color: #1a3975 !important;
+      }
     }
     #right{
       //margin-left: 40px;
@@ -228,6 +234,13 @@ div#row2{
     width: 906px;
     h3{
       margin-left: 100px;
+    }
+    .table-dark{
+      //--bs-table-bg: #0b1436;
+      --bs-table-striped-bg: #101d4b;
+    }
+    th{
+      background-color: #0b1436 !important;
     }
   }
   #right{
