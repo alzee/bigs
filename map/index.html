@@ -8,189 +8,20 @@
 <meta name="author" content="">
 <meta name="keyword" content="">
 <title></title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css" />
+<link rel="stylesheet" type="text/css" href="/css/main.css">
 <!--
 <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon" />
 <link rel="icon" href="data:;base64,=">
 -->
 <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
-<body id="home">
-  <main class="row">
-    <section id="left" class="col-auto">
-      <header>
-        <h3>总交易额：<span class="fw-bold">2,4845.23</span></h3>
-      </header>
-      <div id="gmv">
-        <h3>当季交易额详情(万元)</h3>
-        <div class="row">
-          <div class="col-6">
-            <h5 class="text-success mb-0">总产值</h5>
-            <p>58147</p>
-          </div>
-          <div class="col-6">
-            <h5 class="text-success mb-0">工业销售产值</h5>
-            <p>58147</p>
-          </div>
-          <div class="col-6">
-            <h5 class="text-success mb-0">营业收入</h5>
-            <p>58147</p>
-          </div>
-          <div class="col-6">
-            <h5 class="text-success mb-0">利润总额</h5>
-            <p>58147</p>
-          </div>
-        </div>
-      </div>
-      <div id="ranking">
-        <h3>当季交易商品排行</h3>
-        <div class="row">
-          <span class="col-auto">热轧</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 79%"></div>
-          </div>
-        </div>
+<body id="map">
+  <div id="container"></div>
 
-        <div class="row">
-          <span class="col-auto">冷轧</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 57%"></div>
-          </div>
-        </div>
-
-        <div class="row">
-          <span class="col-auto">钢管</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 97%"></div>
-          </div>
-        </div>
-
-        <div class="row">
-          <span class="col-auto">硅钢</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
-          </div>
-        </div>
-
-        <div class="row">
-          <span class="col-auto">型钢</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 49%"></div>
-          </div>
-        </div>
-
-        <div class="row">
-          <span class="col-auto">中厚板</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 72%"></div>
-          </div>
-        </div>
-
-        <div class="row">
-          <span class="col-auto">不锈钢</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
-          </div>
-        </div>
-
-        <div class="row">
-          <span class="col-auto">特钢</span>
-          <div class="progress col">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="middle" class="col">
-      <div class="row">
-        <div class="col-auto text-start left">
-          <div id="map">
-            <h3>网点分布</h3>
-            <a href="/map/">
-              <img src="img/map.png">
-            </a>
-            <div id="spinner" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner2" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner3" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner4" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner5" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner6" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner7" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner8" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-            <div id="spinner9" class="spinner-grow text-primary" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-          </div>
-          <div id="circle" class="row">
-            <h3>商品类型</h3>
-            <div class="circle col-auto">
-              <p>钢材</p>
-            </div>
-            <div class="circle2 col-auto">
-              <p>废钢</p>
-            </div>
-            <div class="circle3 col-auto">
-              <p>特钢</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-auto right">
-          <span class="chartLegend">年交易量</span>
-          <div>
-            <canvas id="chart"></canvas>
-          </div>
-          <span class="chartLegend">区域交易分析</span>
-          <div>
-            <canvas id="chart2"></canvas>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="right" class="col">
-      <header>
-        <h3>网点数：<span class="fw-bold">178</span></h3>
-      </header>
-      <div>
-          <span class="chartLegend">区域订单量</span>
-          <div>
-            <canvas id="chart3"></canvas>
-          </div>
-          <span class="chartLegend">周交易毛利统计</span>
-          <div>
-            <canvas id="chart4"></canvas>
-          </div>
-      </div>
-    </section>
-  </main>
-  <a href="/2/"><img id="arrow-right" src="img/chevron-right.svg"></a>
-
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/circle-progress.js"></script>
-  <script src="js/chart.min.js"></script>
-  <script src="js/initChart.js"></script>
-  <script src="js/initChart2.js"></script>
-  <script src="js/initChart3.js"></script>
-  <script src="js/initChart4.js"></script>
-  <script src="js/main.js"></script>
+  <script src="https://cache.amap.com/lbs/static/es5.min.js"></script>
+  <script src="https://webapi.amap.com/maps?v=1.4.15&key=1bff801bfbe0c847b79c15feea64567a"></script>
+  <script src="/js/amap.js"></script>
 </body>
 </html>
 
