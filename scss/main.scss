@@ -171,44 +171,70 @@ body{
 
   }
 }
-#detail main{
-  height: 498px;
-  margin: 118px 0 0 32px;
-  text-align: center;
-  h3{
-    text-align: left;
+#detail{
+  header{
+    font-size: 32px;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
   }
-  #left{
+  main{
+    height: 498px;
+    margin: 60px 0 0 32px;
+    text-align: center;
     h3{
-      margin-left: 116px;
+      text-align: left;
     }
-    >div.row{
-      width: 470px;
-      margin-top: 50px;
-      >div{
-        margin-bottom: 72px;
-        h5{
-          color: #2c8dc1;
-          margin-bottom: 32px;
-        }
-        span{
-          font-size: 36px;
+    #left{
+      h3{
+        margin-left: 116px;
+      }
+      >div.row{
+        width: 470px;
+        margin-top: 50px;
+        >div{
+          margin-bottom: 72px;
+          h5{
+            color: #2c8dc1;
+            margin-bottom: 32px;
+          }
+          span{
+            font-size: 36px;
+          }
         }
       }
     }
+    #middle{
+      margin-left: 40px;
+      width: 840px;
+      h3{
+        margin-left: 100px;
+      }
+    }
+    #right{
+      //margin-left: 40px;
+      height: 400px;
+      h3{
+        margin-left: 152px;
+      }
+    }
   }
-  #middle{
-    margin-left: 40px;
-    width: 840px;
+}
+
+div#row2{
+  margin: 0 46px;
+  #left{
+    width: 906px;
     h3{
       margin-left: 100px;
     }
   }
   #right{
-    //margin-left: 40px;
-    height: 400px;
+    margin-left: 46px;
+    height: 370px;
     h3{
-      margin-left: 152px;
+      margin-left: 104px;
     }
   }
 }
