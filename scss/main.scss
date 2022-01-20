@@ -16,7 +16,7 @@ body{
     background-image: url(/img/bg2.jpg);
   }
 }
-main{
+#home main{
   padding-top: 168px;
   section{
     &#left{
@@ -169,5 +169,32 @@ main{
   .chartLegend{
     font-size: 1.75rem;
 
+  }
+}
+#detail main{
+  height: 498px;
+  margin: 118px 0 0 32px;
+  text-align: center;
+  h3{
+    text-align: left;
+  }
+  #left{
+    h3{
+      margin-left: 116px;
+    }
+    >div.row{
+      width: 470px;
+      margin-top: 50px;
+      >div{
+        margin-bottom: 72px;
+        h5{
+          color: #2c8dc1;
+          margin-bottom: 32px;
+        }
+        span{
+          font-size: 36px;
+        }
+      }
+    }
   }
 }
