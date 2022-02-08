@@ -11,13 +11,24 @@ body{
   color: white;
   &#home{
     background-image: url(/img/bg3.jpg);
+    >header{
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: 2rem;
+      font-weight: bold;
+    }
   }
   &#detail{
     background-image: url(/img/bg2.jpg);
+    >header{
+      font-size: 32px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
   }
 }
 #home main{
-  padding-top: 168px;
+  padding-top: 4.75rem;
   section{
     &#left{
       margin-left: 66px;
@@ -181,12 +192,6 @@ body{
   text-align: center;
   h3{
     text-align: left;
-  }
-  header{
-    font-size: 32px;
-    margin: auto;
-    width: 500px;
-    margin-top: 10px;
   }
   main{
     height: 498px;
