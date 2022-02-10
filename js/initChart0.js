@@ -47,4 +47,3 @@ const config0 = {
 };
 
 const chart0 = new Chart(document.getElementById('chart0'), config0);
-Chart0.defaults.scale.ticks.display = false;

@@ -22,6 +22,16 @@ const config3 = {
   data: data3,
   options: {
     responsive: true,
+    scales: {
+        r: {
+            grid: {
+                //display: false,
+            },
+            ticks: {
+                display: false,
+            }
+        },
+    },
     plugins: {
       title: {
         display: false,
