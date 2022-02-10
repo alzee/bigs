@@ -18,13 +18,28 @@ const config0 = {
     indexAxis: 'y',
     responsive: true,
     maintainAspectRatio: false,
+    scales: {
+        y: {
+            grid: {
+                display: false,
+            },
+        },
+        x: {
+            grid: {
+                display: false,
+            },
+            ticks: {
+                display: false,
+            }
+        },
+    },
     plugins: {
       legend: {
         display: false,
         position: 'top',
       },
       title: {
-        display: false,
+        //display: true,
         text: '当季交易商品排行'
       }
     }
@@ -32,4 +47,4 @@ const config0 = {
 };
 
 const chart0 = new Chart(document.getElementById('chart0'), config0);
-chart0.height = 500;
+Chart0.defaults.scale.ticks.display = false;
