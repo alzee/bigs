@@ -15,13 +15,13 @@ new CircleProgress('.circle3', {
 });
 
 
-const labels = ['一月','二月','三月', '四月', '五月', '六月', '七月'];
+const labels = ['一月','二月','三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
 const data = {
   labels: labels,
   datasets: [
     {
       label: '金额',
-      data: [4800,8300,7200,6200,7100,9800,8100],
+      data: [4800,8300,7200,6200,7100,9800,8100,8800,8600,9200,8300,9400],
       borderColor: '#36a2eb',
       backgroundColor: '#36a2eb',
     }
