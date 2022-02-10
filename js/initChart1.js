@@ -15,9 +15,9 @@ new CircleProgress('.circle3', {
 });
 
 
-const labels = ['一月','二月','三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
-const data = {
-  labels: labels,
+const labels1 = ['一月','二月','三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
+const data1 = {
+  labels: labels1,
   datasets: [
     {
       label: '金额',
@@ -28,9 +28,9 @@ const data = {
   ]
 };
 
-const config = {
+const config1 = {
   type: 'bar',
-  data: data,
+  data: data1,
   options: {
     responsive: true,
     maintainAspectRatio: false,
@@ -46,5 +46,5 @@ const config = {
   },
 };
 
-const chart = new Chart(document.getElementById('chart'), config);
-chart.height = 300;
+const chart1 = new Chart(document.getElementById('chart1'), config1);
+chart1.height = 300;
