@@ -29,10 +29,9 @@ body{
 }
 #home main{
   position: relative;
-  padding-top: 4.75rem;
+  padding: 4.75rem 0 0 3.75rem;
   section{
     &#left{
-      margin-left: 66px;
     }
     &#right{
       margin-right: 0px;
@@ -78,7 +77,7 @@ body{
       }
     }
     &#middle{
-      margin: 130px 0 0 40px;
+      margin: 130px 0 0 48px;
       >div{
         width: 960px;
       }
