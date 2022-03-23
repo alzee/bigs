@@ -1,16 +1,16 @@
-const labels3 = ['茅箭区','张湾区','白浪开发区', '郧西', '丹江口', '竹山', '竹溪'];
+const labels3 = ['十堰','武汉','山西', '宜昌', '黄石', '重庆'];
 const data3 = {
   labels: labels3,
   datasets: [
     {
       label: '预定数',
-      data: [92,23,94,85,57,68,89],
+      data: [92,23,94,85,57,68],
       borderColor: '#36a2eb',
       backgroundColor: '#36a2eb',
     },
     {
       label: '下单量',
-      data: [98,73,82,92,61,91,81],
+      data: [98,73,82,92,61,91],
       borderColor: '#4bc0c0',
       backgroundColor: '#4bc0c0',
     }
