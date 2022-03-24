@@ -178,8 +178,25 @@ body{
     height: 498px;
     margin: 60px 0 0 32px;
     #left{
+      width: 468px;
       h3{
         margin-left: 116px;
+      }
+      #news{
+        padding: 1rem .5rem;
+        height: 400px;
+        overflow: hidden;
+        li{
+          background-color: unset;
+          text-align: left;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          a{
+            text-decoration: none;
+            color: #fff;
+          }
+        }
       }
       >div.row{
         width: 470px;
