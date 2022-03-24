@@ -173,6 +173,20 @@ body{
   h3{
     text-align: left;
   }
+  #news, #price{
+    overflow: hidden;
+    li{
+      background-color: unset;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      a{
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
   main{
     position: relative;
     height: 498px;
@@ -185,18 +199,6 @@ body{
       #news{
         padding: 1rem .5rem;
         height: 400px;
-        overflow: hidden;
-        li{
-          background-color: unset;
-          text-align: left;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          a{
-            text-decoration: none;
-            color: #fff;
-          }
-        }
       }
       >div.row{
         width: 470px;
@@ -244,6 +246,14 @@ div#row2{
     h3{
       margin-left: 100px;
     }
+    #price{
+      padding: 1rem .5rem;
+      height: 300px;
+      span{
+        color: #fff;
+        float: right;
+      }
+    }
     .table-dark{
       //--bs-table-bg: #0b1436;
       --bs-table-striped-bg: #101d4b;
@@ -281,4 +291,10 @@ div#row2{
 #map #container{
   width: 1920px;
   height: 1080px;
+}
+.nav-pills .nav-link.active{
+  background-color: #0045ab;
+}
+.nav-link{
+  color: #83abe6;
 }
