@@ -24,6 +24,7 @@
     "luxon": "^2.3.0"
   },
   "devDependencies": {
+    "swiper": "^8.0.7",
     "webpack": "^5.70.0"
   }
 }
