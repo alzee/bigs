@@ -10,7 +10,7 @@ fetch('https://mysteelapi.steelphone.com/tpl/zhanting_data.html?indexCodes=SS_00
             labels: data.xAxis,
             datasets: [
                 {
-                    label: 'test',
+                    label: '指数',
                     data: data.datas[0].yAxis,
                     borderColor: '#05309c',
                     backgroundColor: '#05309c',
