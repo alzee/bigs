@@ -25,9 +25,11 @@ fetch('https://mysteelapi.steelphone.com/tpl/zhanting_data.html?indexCodes=SS_00
             options: {
                 responsive: true,
                 plugins: {
+                    legend: {
+                        display: false,
+                    },
                     title: {
                         display: false,
-                        text: (ctx) => '区域交易分析'
                     },
                     tooltip: {
                         mode: 'index'

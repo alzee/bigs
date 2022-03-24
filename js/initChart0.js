@@ -29,7 +29,7 @@ const config0 = {
                 display: false,
             },
             ticks: {
-                display: false,
+                // display: false,
             }
         },
     },
