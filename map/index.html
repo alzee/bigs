@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keyword" content="">
+<title></title>
+<!--
+<link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon" />
+<link rel="icon" href="data:;base64,=">
+-->
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<style>
+body{
+  margin: 0;
+}
+#map {
+  min-height: 100vh;
+}
+</style>
+</head>
+<body>
+  <div id='map'>
+  </div>
+<script type="text/javascript">
+  // window.forceWebGL = true
+  window._AMapSecurityConfig = {
+    securityJsCode:'6dc470c7d4dbc29833e893dac9b953c0',
+  }
+</script>
+
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=1bff801bfbe0c847b79c15feea64567a&plugin=AMap.Visual"></script> 
+<script type="text/javascript" >
+   var map = new AMap.Map('map',{
+       zoom: 12.86,
+       center: [110.849129, 32.636315]
+   });
+   var visual = new AMap.Visual('amap://visual/48b1c8658bb1545337b7ba3d88156459', map);
+</script>
+</body>
+</html>
+
+<!--
+	vim:ft=html ts=2 sw=2
+-->
+
